@@ -5,7 +5,7 @@ print("Green Lantern Corps")
 nama = input("Masukkan nama\t: ").strip()
 nim = input("Masukkan NIM\t: ").strip()
 
-nim_2digit = nim[-2:] if len(nim) >= 2 else nim
+nim = nim[-2:] if len(nim) >= 2 else nim
 
 nama_benar = True if nama == NAMA else False
 nim_benar = True if nim == NIM else False
